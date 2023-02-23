@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mygym.com</title>
+
+    <style>
+      body {
+        background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgSXmsJoGtsjEcl--SRVK5JruPeXfk-xNbweDc48DA0zDIesPEsfaHS9IEqZVPJDpb2PkDjeOxkZK2OZIZ0AB05hcZJ95ksyEPS8bxlO_RZZOc_eF_3MY7vhUTXUREE5OrCJhqeEop23fs6FOt97kTGZutPbYdtKxHYhIgkFOd-G3txdoLrv1M23PGpkQ/s1600/bg3.jpg");
+        margin: 0px;
+        padding: 0px;
+        color: antiquewhite;
+        font-family: Georgia, "Times New Roman", Times, serif;
+      }
+
+      .left {
+        display: inline-block;
+        position: absolute;
+        left: 40px;
+        top: 20px;
+        /* border: 2px solid red; */
+      }
+
+      .left img {
+        width: 55px;
+        height: 55px;
+      }
+
+      .mid {
+        display: block;
+        width: 33%;
+        margin: 20px auto;
+        /* border: 2px solid green; */
+      }
+
+      .right {
+        display: inline-block;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        /* border: 2px solid blue; */
+      }
+
+      .navbar {
+        display: inline-block;
+      }
+
+      .navbar li {
+        display: inline-block;
+      }
+
+      .navbar li a {
+        font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+        color: aliceblue;
+        padding: 2px 10px;
+        text-decoration: none;
+        border-radius: 30px;
+      }
+
+      .navbar li a:hover {
+        background-color: aquamarine;
+        color: rgb(32, 29, 210);
+      }
+
+      .btn {
+        margin: 10px 3px;
+        padding: 2px 10px;
+        background-color: black;
+        color: white;
+        border: 2px solid grey;
+        border-radius: 15px;
+        cursor: pointer;
+        font-family: Georgia, "Times New Roman", Times, serif;
+      }
+
+      .btn:hover {
+        background-color: aquamarine;
+        color: rgb(32, 29, 210);
+      }
+      .container {
+        border: 2px solid white;
+        margin: 80px 45px;
+        padding: 10px 10px;
+        width: 27%;
+        display: block;
+        border-radius: 10px;
+      }
+      .container h2 {
+        text-align: center;
+      }
+      .container button {
+        display: block;
+        margin: 4px auto;
+      }
+      .form-group input {
+        text-align: center;
+        display: block;
+        width: 150px;
+        padding: 2px;
+        border: 2px solid black;
+        border-radius: 5px;
+        margin: 3px auto;
+        font-size: 15px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="left">
+        <img
+          src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgH7SG-Id22AVUnMz01_macrm1fX-H3MLq7RYJ_holgCFpVpP-HqXJK0YCnUqNuGgLmdyNVDme3hQsczUNrmo3AIfX9KAvXmNVDzwULivCGA4vBV5kFbXQ_ei3KUN00NKUhBFxEMiakZwE95U9l0BlIb_DY6_AbW5S-V7oeNP1HfAtmNHBaTK1H-pX-jw/s1600/logo.jpg"
+          alt="logo"
+        />
+      </div>
+      <div class="mid">
+        <ul class="navbar">
+          <li><a href="#">Home </a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Fitness Calculater</a></li>
+          <li><a href="#top">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="right">
+        <button class="btn">Call Us Now</button>
+        <a href="mailto:ravindrachaubey410@gmail.com"
+          ><button class="btn">Email us</button></a
+        >
+      </div>
+    </header>
+    <div class="container">
+      <h2>Join the best gym at singrauli now</h2>
+      <form action="noaction.php">
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter your name" />
+        </div>
+
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter you Age" />
+        </div>
+
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter your Gender" />
+        </div>
+
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter your Locality" />
+        </div>
+        <button class="btn">Submit</button>
+      </form>
+    </div>
+    <div class="top">Content about you gym / web page</div>
+  </body>
+</html>
